@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A3CC8BBB-4117-33D9-9441-F74D4D19364E}</ProjectGuid>
+    <RootNamespace></RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    <OutputDirectory>debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    <OutputDirectory>release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" /><PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')"><QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild></PropertyGroup><Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')"><Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." /></Target><ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')"><Import Project="$(QtMsBuild)\qt.props" /></ImportGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</IgnoreImportLibrary>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;.;..\..\..\qt_5.10.1_x64\include;..\..\..\qt_5.10.1_x64\include\QtGui;..\..\..\qt_5.10.1_x64\include\QtANGLE;..\..\..\qt_5.10.1_x64\include\QtCore;debug;..\..\..\qt_5.10.1_x64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>debug\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;WIN64;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    <MultiProcessorCompilation>true</MultiProcessorCompilation></ClCompile>
+    <Link>
+      <AdditionalDependencies>D:\qt_5.10.1_x64\lib\qtmaind.lib;shell32.lib;D:\qt_5.10.1_x64\lib\Qt5Guid.lib;D:\qt_5.10.1_x64\lib\Qt5Cored.lib;D:\qt_5.10.1_x64\lib\libEGLd.lib;D:\qt_5.10.1_x64\lib\libGLESv2d.lib;gdi32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\qt_5.10.1_x64\lib;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>$(OutDir)\.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;WIN64;QT_GUI_LIB;QT_CORE_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  <QtMoc><QTDIR>D:\qt_5.10.1_$(Platform)</QTDIR><OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile><Define>UNICODE;_UNICODE;WIN32;WIN64;QT_GUI_LIB;QT_CORE_LIB</Define><CompilerFlavor>msvc</CompilerFlavor><Include>$(Configuration)/moc_predefs.h</Include><ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription><InputFile>%(FullPath)</InputFile><DynamicSource>output</DynamicSource><IncludePath>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;D:/qt_5.10.1_$(Platform)/mkspecs/win32-msvc;.;D:/qt_5.10.1_$(Platform)/include;D:/qt_5.10.1_$(Platform)/include/QtGui;D:/qt_5.10.1_$(Platform)/include/QtANGLE;D:/qt_5.10.1_$(Platform)/include/QtCore;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\ATLMFC\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt</IncludePath></QtMoc><QtRcc><InitFuncName>img</InitFuncName><OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile><QTDIR>D:\qt_5.10.1_$(Platform)</QTDIR><ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription><Compression>default</Compression><InputFile>%(FullPath)</InputFile></QtRcc></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;.;..\..\..\qt_5.10.1_x64\include;..\..\..\qt_5.10.1_x64\include\QtGui;..\..\..\qt_5.10.1_x64\include\QtANGLE;..\..\..\qt_5.10.1_x64\include\QtCore;release;..\..\..\qt_5.10.1_x64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>release\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;WIN64;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName></ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    <MultiProcessorCompilation>true</MultiProcessorCompilation></ClCompile>
+    <Link>
+      <AdditionalDependencies>D:\qt_5.10.1_x64\lib\qtmain.lib;shell32.lib;D:\qt_5.10.1_x64\lib\Qt5Gui.lib;D:\qt_5.10.1_x64\lib\Qt5Core.lib;D:\qt_5.10.1_x64\lib\libEGL.lib;D:\qt_5.10.1_x64\lib\libGLESv2.lib;gdi32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\qt_5.10.1_x64\lib;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;WIN64;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  <QtRcc><QTDIR>D:\qt_5.10.1_$(Platform)</QTDIR><ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription><Compression>default</Compression><InitFuncName>img</InitFuncName><OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile><InputFile>%(FullPath)</InputFile></QtRcc><QtMoc><QTDIR>D:\qt_5.10.1_$(Platform)</QTDIR><OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile><Define>UNICODE;_UNICODE;WIN32;WIN64;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB</Define><CompilerFlavor>msvc</CompilerFlavor><Include>$(Configuration)/moc_predefs.h</Include><ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription><InputFile>%(FullPath)</InputFile><DynamicSource>output</DynamicSource><IncludePath>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;D:/qt_5.10.1_$(Platform)/mkspecs/win32-msvc;.;D:/qt_5.10.1_$(Platform)/include;D:/qt_5.10.1_$(Platform)/include/QtGui;D:/qt_5.10.1_$(Platform)/include/QtANGLE;D:/qt_5.10.1_$(Platform)/include/QtCore;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\ATLMFC\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt</IncludePath></QtMoc></ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="abslowercenterwidget.cpp" />
+    <ClCompile Include="basewidget.cpp" />
+    <ClCompile Include="bottomwidget.cpp" />
+    <ClCompile Include="buttonwithname.cpp" />
+    <ClCompile Include="centerwidget.cpp" />
+    <ClCompile Include="cleancenterwidget.cpp" />
+    <ClCompile Include="closebutton.cpp" />
+    <ClCompile Include="fontwidget.cpp" />
+    <ClCompile Include="loginbutton.cpp" />
+    <ClCompile Include="lowerbottomwidget.cpp" />
+    <ClCompile Include="lowersafecheckbutton.cpp" />
+    <ClCompile Include="lowerspeedbutton.cpp" />
+    <ClCompile Include="lowertopwidget.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainwindow.cpp" />
+    <ClCompile Include="nunberwidget.cpp" />
+    <ClCompile Include="optimizecenterwidget.cpp" />
+    <ClCompile Include="safecheckcenterwidget.cpp" />
+    <ClCompile Include="titlebar.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="abslowercenterwidget.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <QtMoc Include="basewidget.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <QtMoc Include="bottomwidget.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <QtMoc Include="buttonwithname.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <QtMoc Include="centerwidget.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <ClInclude Include="cleancenterwidget.h" />
+    <QtMoc Include="closebutton.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <ClInclude Include="common.h" />
+    <QtMoc Include="fontwidget.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <ClInclude Include="loginbutton.h" />
+    <QtMoc Include="lowerbottomwidget.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <QtMoc Include="lowersafecheckbutton.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <QtMoc Include="lowerspeedbutton.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <QtMoc Include="lowertopwidget.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <QtMoc Include="mainwindow.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <QtMoc Include="nunberwidget.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+    <ClInclude Include="optimizecenterwidget.h" />
+    <ClInclude Include="safecheckcenterwidget.h" />
+    <QtMoc Include="titlebar.h">
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\qt_5.10.1_x64\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zi -MDd -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E ..\..\..\qt_5.10.1_x64\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;debug\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_predefs.h;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\qt_5.10.1_x64\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -O2 -MD -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E ..\..\..\qt_5.10.1_x64\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;release\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\moc_predefs.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resource\tijian\0.png" />
+    <None Include="..\resource\tijian_score\0.png" />
+    <None Include="..\resource\tijian\1.png" />
+    <None Include="..\resource\tijian_score\1.png" />
+    <None Include="..\resource\tijian\2.png" />
+    <None Include="..\resource\tijian_score\2.png" />
+    <None Include="..\resource\tijian\3.png" />
+    <None Include="..\resource\tijian_score\3.png" />
+    <None Include="..\resource\360JiShi_10_32.png" />
+    <None Include="..\resource\360logo.ico" />
+    <None Include="..\resource\360logo.png" />
+    <None Include="..\resource\tijian\4.png" />
+    <None Include="..\resource\tijian_score\4.png" />
+    <None Include="..\resource\tijian\5.png" />
+    <None Include="..\resource\tijian_score\5.png" />
+    <None Include="..\resource\tijian\6.png" />
+    <None Include="..\resource\tijian_score\6.png" />
+    <None Include="..\resource\tijian\7.png" />
+    <None Include="..\resource\tijian_score\7.png" />
+    <None Include="..\resource\tijian\8.png" />
+    <None Include="..\resource\tijian_score\8.png" />
+    <None Include="..\resource\tijian\9.png" />
+    <None Include="..\resource\tijian_score\9.png" />
+    <None Include="..\resource\tijian\?.png" />
+    <None Include="..\resource\tijian_score\?.png" />
+    <None Include="..\resource\tijian\??.png" />
+    <None Include="..\resource\AdvanceTools_360MobileMgr_10_32.png" />
+    <None Include="..\resource\AdvanceTools_360SoftManger_10_32.png" />
+    <None Include="..\resource\AdvanceTools_NetSpeed_10_32.png" />
+    <None Include="..\resource\Menu.png" />
+    <None Include="..\resource\Skin.png" />
+    <None Include="..\resource\advtool_more.png" />
+    <None Include="..\resource\resource\SystemFix_theme\Image\occupation\background.png" />
+    <None Include="..\resource\background_mainwnd.jpg" />
+    <None Include="..\resource\btn_examine_now.png" />
+    <None Include="..\resource\btn_start_scan.png" />
+    <None Include="..\resource\btn_top_scan.png" />
+    <None Include="..\resource\cat_checkbox.png" />
+    <None Include="..\resource\cat_gray_hover.png" />
+    <None Include="..\resource\cat_hover.png" />
+    <None Include="..\resource\category_tab_background.png" />
+    <None Include="..\resource\clean.png" />
+    <None Include="..\resource\cleanlogo.png" />
+    <None Include="..\resource\def_head.png" />
+    <None Include="..\resource\tijian\dian.png" />
+    <None Include="..\resource\disk_check.png" />
+    <None Include="..\resource\disk_uncheck.png" />
+    <None Include="..\resource\tijian\douhao.png" />
+    <None Include="..\resource\tijian_score\examine_score.png" />
+    <None Include="..\resource\guardline.png" />
+    <None Include="..\resource\head_bkg.png" />
+    <QtRcc Include="..\resource\img.qrc">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtRcc>
+    <None Include="..\resource\tijian\maohao.png" />
+    <None Include="..\resource\min.png" />
+    <None Include="..\resource\my_tool_bk.png" />
+    <None Include="..\resource\net_check.png" />
+    <None Include="..\resource\net_uncheck.png" />
+    <None Include="..\resource\payinsure_safe_hover.png" />
+    <None Include="..\resource\payinsure_safe_normal.png" />
+    <None Include="..\resource\payinsure_safe_press.png" />
+    <None Include="..\resource\playvideo.png" />
+    <None Include="..\resource\return.png" />
+    <None Include="..\resource\routerdefender.png" />
+    <None Include="..\resource\safe_check.png" />
+    <None Include="..\resource\safelogo.png" />
+    <None Include="..\resource\scan_button_custom.png" />
+    <None Include="..\resource\scan_button_custom_hover.png" />
+    <None Include="..\resource\scan_button_full.png" />
+    <None Include="..\resource\scan_button_full_hover.png" />
+    <None Include="..\resource\scan_button_quick.png" />
+    <None Include="..\resource\scan_button_quick_hover.png" />
+    <None Include="..\resource\security_safe_hover.png" />
+    <None Include="..\resource\security_safe_normal.png" />
+    <None Include="..\resource\security_safe_press.png" />
+    <None Include="..\resource\short_cut_bkg.png" />
+    <None Include="..\resource\shu_line.png" />
+    <None Include="..\resource\speed.png" />
+    <None Include="..\resource\speedlogo.png" />
+    <None Include="..\resource\start_btn.png" />
+    <None Include="..\resource\start_check.png" />
+    <None Include="..\resource\start_uncheck.png" />
+    <None Include="..\resource\sys_button_close.png" />
+    <None Include="..\resource\sys_check.png" />
+    <None Include="..\resource\sys_uncheck.png" />
+    <None Include="..\resource\system_fix.png" />
+    <None Include="..\resource\system_patch.png" />
+    <None Include="..\resource\tijian\tanhao.png" />
+    <None Include="..\resource\update_btn.png" />
+    <None Include="..\resource\wenli.png" />
+    <None Include="..\resource\youhua.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" /><ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')"><Import Project="$(QtMsBuild)\qt.targets" /></ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

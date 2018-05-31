@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="abslowercenterwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bottomwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buttonwithname.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="centerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cleancenterwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="closebutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fontwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loginbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lowerbottomwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lowersafecheckbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lowerspeedbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lowertopwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nunberwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="optimizecenterwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="safecheckcenterwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="titlebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="abslowercenterwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="basewidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="bottomwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="buttonwithname.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="centerwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="cleancenterwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="closebutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="fontwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="loginbutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="lowerbottomwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lowersafecheckbutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lowerspeedbutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lowertopwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="nunberwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="optimizecenterwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="safecheckcenterwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="titlebar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resource\tijian\0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian_score\0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian\1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian_score\1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian\2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian_score\2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian\3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian_score\3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\360JiShi_10_32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\360logo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\360logo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian\4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian_score\4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian\5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian_score\5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian\6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian_score\6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian\7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian_score\7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian\8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian_score\8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian\9.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian_score\9.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian\?.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian_score\?.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian\??.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\AdvanceTools_360MobileMgr_10_32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\AdvanceTools_360SoftManger_10_32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\AdvanceTools_NetSpeed_10_32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\Menu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\Skin.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\advtool_more.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\resource\SystemFix_theme\Image\occupation\background.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\background_mainwnd.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\btn_examine_now.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\btn_start_scan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\btn_top_scan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\cat_checkbox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\cat_gray_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\cat_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\category_tab_background.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\clean.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\cleanlogo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\def_head.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian\dian.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\disk_check.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\disk_uncheck.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian\douhao.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian_score\examine_score.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\guardline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\head_bkg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\resource\img.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="..\resource\tijian\maohao.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\min.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\my_tool_bk.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\net_check.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\net_uncheck.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\payinsure_safe_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\payinsure_safe_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\payinsure_safe_press.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\playvideo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\return.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\routerdefender.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\safe_check.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\safelogo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\scan_button_custom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\scan_button_custom_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\scan_button_full.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\scan_button_full_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\scan_button_quick.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\scan_button_quick_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\security_safe_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\security_safe_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\security_safe_press.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\short_cut_bkg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\shu_line.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\speed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\speedlogo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\start_btn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\start_check.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\start_uncheck.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\sys_button_close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\sys_check.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\sys_uncheck.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\system_fix.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\system_patch.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\tijian\tanhao.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\update_btn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\wenli.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\youhua.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
